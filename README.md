@@ -1,18 +1,22 @@
 # Analysing Effects of Gender Distribution in School Performance
 
-An analysis of Schools in England to find whether whether different gender and their distribution in a school have some effect on the school’s performance.
+An analysis of Schools in England to find whether different gender and their distribution in a school have some effect on the school’s performance.
 
-We have considered the data of schools in England and their performance from the UK government website https://www.compare-school-performance.service.gov.uk/ for this specific analysis. We will start with understanding the distribution of boys and girls population in schools in England. Once we understand how the male and female population are distributed across England schools, we will start with analysing the e↵ects of number of male and female pupils in a school. The focus will be to study the e↵ect (if any) of number or fraction of boys/girls in a school to the school’s performance.
+We have considered the data of schools in England and their performance from the UK government website https://www.compare-school-performance.service.gov.uk/ for this specific analysis. We will start with understanding the distribution of boys and girls population in schools in England. Once we understand how the male and female population are distributed across England schools, we will start with analysing the effects of number of male and female pupils in a school. The focus will be to study the effect (if any) of number or fraction of boys/girls in a school to the school’s performance.
 
-We will consider two different metrics for evaluation of the school performance. The first is the OFSTED ratings of schools (Discussed in **MAIN.pdf** in detail) and Pupil’s performance in Reading, Writing and Mathematics. The pupil’s performance metrics will also be combined together to give us an overall pupil’s performance. As mentioned earlier, pupil’s performance is one of the ways to evaluate a school.
+We will consider two different metrics for evaluation of the school performance. The first is the OFSTED-ratings of schools (Discussed in **MAIN.pdf** in detail) and Pupil’s performance in Reading, Writing and Mathematics. The pupil’s performance metrics will also be combined together to give us an overall pupil’s performance. Pupil’s performance is one of the ways to evaluate a school.
+
+The analysis is done and results are derived in **Analysis.ipynb**, Refer to **MAIN.pdf** for interpretation of analysis results.
 
 # The Data used and its relevance
 
 As mentioned in the previous section, we have considered data from the UK Government website https://www.compare-school-performance.service.gov.uk/ for the analysis. The data we have considered are the following:
 
-* School Information data: It contains information about the schools such as School-URN (Unique reference number), School-Name, School-Address, Gender (Male, Female, Mixed), OFSTED-Rating. We will discuss OFSTED- Rating (A measure of school’s performance) in detail in the later sections.
-* Final key stage 2 Performance data: It contains data about Primary schools pupils’ performance (progress scores) in Reading, Writing and Mathematics. We will discuss what these scores indicate in the later section.
-* Census data of pupil types: It contains data about pupils in england’s schools such as Number of Male pupils on roll, Number of Female students on roll, Percentage of Male pupils on roll, and Percentage of Female pupils on roll.
+* School Information data: It contains information about the schools such as School-URN (Unique reference number), School-Name, School-address, Gender (Male, Female, Mixed), OFSTED-rating. We will discuss OFSTED-rating (A measure of school’s performance) in detail in the later sections. Contained within the "data" directory as "england_school_information.csv".
+* Final key stage 2 Performance data: It contains data about Primary schools pupils’ performance (progress scores) in Reading, Writing and Mathematics. We will discuss what these scores indicate in the later section. Contained within the "data" directory as "england_ks2final.csv".
+* Census data of pupil types: It contains data about pupils in england’s schools such as Number of Male pupils on roll, Number of Female students on roll, Percentage of Male pupils on roll, and Percentage of Female pupils on roll. Contained within the "data" directory as "england_census.csv".
+
+Refer to the "Data Descriptions" folder to get Descriptions of the data.
 
 # Summary of Main Findings
 
